@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 215 65% 10%;
+    --card: 210 40% 98%;
+    --card-foreground: 215 65% 10%;
+    --popover: 210 40% 98%;
+    --popover-foreground: 215 65% 10%;
+    --primary: 215 65% 20%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 91%;
+    --secondary-foreground: 215 65% 20%;
+    --muted: 210 40% 91%;
+    --muted-foreground: 215 20% 45%;
+    --accent: 190 100% 50%;
+    --accent-foreground: 215 65% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 210 40% 88%;
+    --input: 210 40% 88%;
+    --ring: 190 100% 50%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 215 65% 12%;
+    --foreground: 210 40% 98%;
+    --card: 215 65% 15%;
+    --card-foreground: 210 40% 98%;
+    --popover: 215 65% 12%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 215 65% 20%;
+    --secondary: 215 65% 20%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 215 65% 20%;
+    --muted-foreground: 210 40% 60%;
+    --accent: 190 100% 50%;
+    --accent-foreground: 215 65% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 65% 20%;
+    --input: 215 65% 20%;
+    --ring: 190 100% 50%;
+  }
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    text-rendering: optimizeLegibility;
+  }
+}
+@layer components {
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
