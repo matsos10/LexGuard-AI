@@ -2,7 +2,7 @@
 
 An AI-powered SaaS platform for automated legal monitoring, contract analysis, and compliance management.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/matsos10/LexGuard-AI)
 
 ## Overview
 
@@ -102,7 +102,7 @@ This application is designed for easy deployment to the Cloudflare global networ
 
 Alternatively, you can deploy directly from your GitHub repository using the button below.
 
-[cloudflarebutton]
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/matsos10/LexGuard-AI)
 
 ## Contributing
 
